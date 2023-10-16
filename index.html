@@ -4,9 +4,265 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        .*{
+            color:white;
+        }
+        body{
+            color:white;
+
+        }
+        .dropdown:hover >.dropdown-menu{
+            display: block;
+        }
+        .card{
+            transition:all 0.5s;
+        }
+        .card:hover{
+            transform:scale(1.1);
+        }
+    </style>
 </head>
 <body class="container-fluid">
-    <h1>Sameer</h1>
-    <img src=""
+    <section class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div>
+                <a class="navbar-brand ms-lg-5" href="#"><img src="/images/Around.png"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-lg-4" id="navbarNavDropdown">
+                <div class="d-flex justify-content-around align-items-center h-25">
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle m-4" data-bs-auto-close="outside" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Landings</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"></a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>      
+                                    <li>
+                                        <a class="dropdown-item dropdown-toggle"data-bs-toggle="dropdown" href="#">Action</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Template Intro Page</a></li>
+                                    <li><a class="dropdown-item" href="#">Mobile App Showcase</a></li>
+                                    <li><a class="dropdown-item" href="#">Product Landing</a></li>
+                                    <li><a class="dropdown-item" href="#">Product Landing</a></li>
+                                    <li><a class="dropdown-item" href="#">SaaS v.3New</a></li>
+                                    <li><a class="dropdown-item" href="#">Shop Homepage</a></li>
+                                    <li><a class="dropdown-item" href="#"> Marketing Agency</a></li>
+                                    <li><a class="dropdown-item" href="#">Creative Agency</a></li>
+                                    <li><a class="dropdown-item" href="#">Web Studio</a></li>
+                                    <li><a class="dropdown-item" href="#"> Corporate</a></li>
+                                    <li><a class="dropdown-item" href="#">Business Consulting</a></li>
+                                    <li><a class="dropdown-item" href="#">Coworking Space</a></li>
+                                    <li><a class="dropdown-item" href="#">Yoga Studio</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle m-4"data-bs-auto-close="outside" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropend">
+                                        <a class="dropdown-item dropdown-toggle"data-bs-toggle="dropdown" href="#">Another action</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown">Item1</a></li>
+                                            <li><a href="#" class="dropdown">Item2</a></li>
+                                            <li><a href="#" class="dropdown">Item3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropend">
+                                        <a class="dropdown-item dropdown-toggle"data-bs-toggle="dropdown" href="#">Something Here</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown">Item1</a></li>
+                                            <li><a href="#" class="dropdown">Item2</a></li>
+                                            <li><a href="#" class="dropdown">Item3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropend">
+                                        <a class="dropdown-item dropdown-toggle"data-bs-toggle="dropdown" href="#">Action</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown">Item1</a></li>
+                                            <li><a href="#" class="dropdown">Item2</a></li>
+                                            <li><a href="#" class="dropdown">Item3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle m-4" href="#" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Sameer</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown">Item4</a></li>
+                                            <li><a href="#" class="dropdown">Item5</a></li>
+                                            <li><a href="#" class="dropdown">Item6</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item m-4"><a href="#">UI Kit</a></li>
+                            <li class="nav-item m-4"><a href="#">DOcs</a></li>
+                        </ul>
+                    </div>
+                    <div class="m-lg-5">
+                        <a class="bi bi-sun m-4 nav-item"></a>
+                        <span class="form-switch m-4 nav-item">
+                            <input type="checkbox" class="form-check-input">
+                        </span>
+                        <a class="bi bi-moon m-4 nav-item"></a>
+                        <button class="btn btn-dark bi bi-cart ms-2 me-lg-4 nav-item"> Buy Now</button>
+                    </div>  
+                </div>
+            </div>  
+        </nav> 
+        <div>
+            <h1 class="text-center"style="font-size:70px;margin-top:70px; margin-bottom:8px;padding:20px">Have A Look Around!</h1>
+            <p class="text-center fs-5" style="">And you will find everything you need to build a great looking website</p>
+            <a class="scroll-down-btn" href="#landings" data-scroll-offset="20">
+                <div class="mouse">
+                    
+                </div>
+                <p>Landings</p>
+            </a>    
+        </div>
+        <div class="d-flex">
+            <div class="border border-3 border-danger bg-danger h-100 p-lg-5 rounded-5 rounded-circle" style="width:600px">
+                <img src="/images/AroundImg1.png" class="" style="margin: 50px;">
+            </div>
+            <div class="border border-3 border-danger bg-primary h-100 p-lg-5 rounded-5 rounded-circle" style="width:600px;margin-left:300px">
+                <img src="/images/AroundImg2.png" style="margin:50px; width:400px">
+            </div> 
+        </div>   
+        <div class="border border-3 border-danger bg-success h-100 p-lg-5 rounded-5 rounded-circle" style="width:600px;margin-left:400px">
+            <img src="/images/AroundImg3.png" style="margin:50px; width:400px">
+        </div>    
+    </section>
+    <section class="container-fluid bg-secondary">
+        <div class="text-center" style="">
+            <h1 class=""style="padding-top:100px;">Landing Pages</h1>
+            <span class="">Choose from pre-built layouts of our unique landing pages</span>
+        </div>
+        <div class="container-fluid mt-5 mb-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BSCard1.png" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">Mobile App Showcase</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BSCard2.png" class="card-img-top" style="height:583px"/>
+                            <div class="card-body">
+                                <div class="card-title">Product Learning</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BSCard3.png" class="card-img-top"/>
+                            <div class="card-body">
+                                <div class="card-title">Sass V.1</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BTImg4.png" class=card-img-top" style="height:583px;">
+                            <div class="card-body">
+                                <div class="card-title">Sass V.2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BSCard5.png" class=card-img-top" style="height:583px;">
+                            <div class="card-body">
+                                <div class="card-title">Sass V.3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BScard6.png" class=card-img-top" style="height:583px">
+                            <div class="card-body">
+                                <div class="card-title">Shop Homepage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BTImg4.png" class=card-img-top" style="height:583px;">
+                            <div class="card-body">
+                                <div class="card-title">Sass V.2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BSCard5.png" class=card-img-top" style="height:583px;">
+                            <div class="card-body">
+                                <div class="card-title">Sass V.3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BScard6.png" class=card-img-top" style="height:583px">
+                            <div class="card-body">
+                                <div class="card-title">Shop Homepage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BTImg4.png" class=card-img-top" style="height:583px;">
+                            <div class="card-body">
+                                <div class="card-title">Sass V.2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BSCard5.png" class=card-img-top" style="height:583px;">
+                            <div class="card-body">
+                                <div class="card-title">Sass V.3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="/images/BScard6.png" class=card-img-top" style="height:583px">
+                            <div class="card-body">
+                                <div class="card-title">Shop Homepage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
